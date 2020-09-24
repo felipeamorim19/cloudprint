@@ -1,0 +1,904 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Woocommerce Google Cloud Print\n"
+"POT-Creation-Date: 2018-10-11 14:02+0530\n"
+"PO-Revision-Date: 2018-10-11 14:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xc-woo-google-cloud-print.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/options.php:63
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/options.php:77
+msgid "Instructions"
+msgstr ""
+
+#: includes/options.php:81
+msgid ""
+"For longer help, including screenshots, follow this link. The description "
+"below is sufficient for more expert users."
+msgstr ""
+
+#: includes/options.php:88
+#, php-format
+msgid ""
+"%s does not allow authorisation of sites hosted on direct IP addresses. You "
+"will need to change your site's address (%s) before you can use %s for "
+"storage."
+msgstr ""
+
+#: includes/options.php:88 includes/options.php:470
+#: includes/woo_order_meta.php:24
+msgid "Google Cloud Print"
+msgstr ""
+
+#: includes/options.php:95
+msgid ""
+"Follow this link to your Google API Console, and there create a Client ID in "
+"the API Access section."
+msgstr ""
+
+#: includes/options.php:99
+msgid ""
+"Select 'Web Application' as the application type. Then enter the client ID "
+"and secret below and save your settings."
+msgstr ""
+
+#: includes/options.php:104
+msgid ""
+"You must add the following as the authorised redirect URI (under \"More "
+"Options\") when asked"
+msgstr ""
+
+#: includes/options.php:112
+msgid ""
+"N.B. If you install this plugin on several WordPress sites, then you might "
+"have problems in re-using your project (depending on whether Google have "
+"fixed issues at their end yet); if so, then  create a new project from your "
+"Google API console for each site."
+msgstr ""
+
+#: includes/options.php:117
+msgid "After completing authentication, a list of printers will appear."
+msgstr ""
+
+#: includes/options.php:117
+msgid "Choose one, and then save the settings for the second time."
+msgstr ""
+
+#: includes/options.php:136
+msgid "refreshing..."
+msgstr ""
+
+#: includes/options.php:137 includes/options.php:326
+msgid "refresh"
+msgstr ""
+
+#: includes/options.php:207
+msgid "Google Client ID"
+msgstr ""
+
+#: includes/options.php:211
+msgid "Google Client Secret"
+msgstr ""
+
+#: includes/options.php:215 includes/woo_settings.php:504
+msgid "Printer"
+msgstr ""
+
+#: includes/options.php:244
+msgid "Google Cloud Print links:"
+msgstr ""
+
+#: includes/options.php:245
+msgid "Learn about Google Cloud Print"
+msgstr ""
+
+#: includes/options.php:247
+msgid "Your printers"
+msgstr ""
+
+#: includes/options.php:249
+msgid "Your print jobs"
+msgstr ""
+
+#: includes/options.php:261
+#, php-format
+msgid ""
+"You appear to be authenticated with Google Cloud Print, but if you are "
+"seeing authorisation errors, then you can click here to authenticate your %s "
+"account again."
+msgstr ""
+
+#: includes/options.php:290
+msgid "See the instructions above to learn how to get this"
+msgstr ""
+
+#: includes/options.php:311 includes/woo_settings.php:497
+msgid "Account either not connected, or no printers available)"
+msgstr ""
+
+#: includes/options.php:331
+msgid "Google Cloud Print notice:"
+msgstr ""
+
+#: includes/options.php:332
+#, php-format
+msgid ""
+"Click here to authenticate your %s account (you will not be able to print "
+"via %s without it)."
+msgstr ""
+
+#: includes/options.php:448
+msgid ""
+"No refresh token was received from Google. This often means that you entered "
+"your client secret wrongly, or that you have not yet re-authenticated "
+"(below) since correcting it. Re-check it, then follow the link to "
+"authenticate again. Finally, if that does not work, then use expert mode to "
+"wipe all your settings, create a new Google client ID/secret, and start "
+"again."
+msgstr ""
+
+#: includes/options.php:450
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/options.php:456
+msgid "Authorization failed"
+msgstr ""
+
+#: includes/options.php:470 xc-woo-google-cloud-print.php:144
+msgid "Success"
+msgstr ""
+
+#: includes/options.php:470
+#, php-format
+msgid "you have authenticated your %s account."
+msgstr ""
+
+#: includes/options.php:622
+msgid "Do not fit to page"
+msgstr ""
+
+#: includes/options.php:625
+msgid "Fit to page"
+msgstr ""
+
+#: includes/options.php:636
+msgid "Portrait"
+msgstr ""
+
+#: includes/options.php:639
+msgid "Landscape"
+msgstr ""
+
+#: includes/options.php:642 includes/options.php:659
+msgid "Automatic"
+msgstr ""
+
+#: includes/options.php:653
+msgid "Monochrome"
+msgstr ""
+
+#: includes/options.php:656
+msgid "Color"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:29
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:32
+msgid "Get system report"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:37
+msgid "Copied!"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:38
+msgid "Copy for support"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:42
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:49
+msgid "WordPress environment"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:54
+msgid "Home URL"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:55
+msgid "The homepage URL of your site."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:59
+msgid "Site URL"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:60
+msgid "The root URL of your site."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:64
+msgid "WooCommerce version"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:65
+msgid "The version of WooCommerce installed on your site."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:69
+msgid "Log directory writable"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:70
+msgid ""
+"Several WooCommerce extensions can write logs which makes debugging problems "
+"easier. The directory must be writable for this to happen."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:77
+#, php-format
+msgid "To allow logging, make %1$s writable or define a custom %2$s."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:83
+msgid "WordPress version"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:84
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:103
+#, php-format
+msgid "%1$s - There is a newer version of WordPress available (%2$s)"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:111
+msgid "WordPress multisite"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:112
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:116
+msgid "WordPress memory limit"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:117
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:122
+#, php-format
+msgid "%1$s - We recommend setting memory to at least 64MB. See: %2$s"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:122
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:130
+msgid "WordPress debug mode"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:131
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:141
+msgid "WordPress cron"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:142
+msgid "Displays whether or not WP Cron Jobs are enabled."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:152
+msgid "Language"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:153
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:157
+msgid "External object cache"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:158
+msgid "Displays whether or not WordPress is using an external object cache."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:172
+msgid "Server environment"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:177
+msgid "Server info"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:178
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:182
+msgid "PHP version"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:183
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:189
+msgid "How to update your PHP version"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:193
+msgid "We recommend using PHP version 5.6 or above for greater performance."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:204
+msgid "DOM extension"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:205
+msgid "Google cloud print will not work without DOM extension"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:211
+msgid ""
+"Your server does not have the DOM extension enabled - Google cloud print "
+"will not work without DOM extension."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:217
+msgid "GD extension"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:218
+msgid "Google cloud print will not work without GD extension"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:224
+msgid ""
+"Your server does not have the GD extension enabled - Google cloud print will "
+"not work without GD extension."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:230
+msgid "Multibyte string"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:231
+msgid "Multibyte String (mbstring) is used to convert character encoding"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:238
+#, php-format
+msgid ""
+"Your server does not support the %s functions - this is required for better "
+"character encoding. Some fallbacks will be used instead for it."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:248
+msgid "Active plugins"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:260
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:268
+#: includes/views/html-admin-page-status-report.php:317
+#: includes/views/html-admin-page-status-report.php:355
+#, php-format
+msgid "%s is available"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:272
+msgid "Network enabled"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:277
+msgid "Not tested with the active version of WooCommerce"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:286
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:300
+msgid "Theme"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:305
+msgid "Name"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:306
+msgid "The name of the current active theme."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:310
+msgid "Version"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:311
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:323
+msgid "Author URL"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:324
+msgid "The theme developers URL."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:328
+msgid "Child theme"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:329
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:336
+#, php-format
+msgid ""
+"If you are modifying WooCommerce on a parent theme that you did not build "
+"personally we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:343
+msgid "Parent theme name"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:344
+msgid "The name of the parent theme."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:348
+msgid "Parent theme version"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:349
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:361
+msgid "Parent theme author URL"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:362
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:367
+msgid "WooCommerce support"
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:368
+msgid ""
+"Displays whether or not the current active theme declares WooCommerce "
+"support."
+msgstr ""
+
+#: includes/views/html-admin-page-status-report.php:372
+msgid "Not declared"
+msgstr ""
+
+#: includes/woo_order_meta.php:44 templates/invoice.php:22
+#: templates/invoice.php:39 templates/invoice.php:53
+msgid "Invoice"
+msgstr ""
+
+#: includes/woo_order_meta.php:45 templates/packing-slip.php:22
+#: templates/packing-slip.php:39 templates/packing-slip.php:52
+msgid "Packing Slip"
+msgstr ""
+
+#: includes/woo_order_meta.php:51 includes/woo_order_meta.php:52
+msgid "Print "
+msgstr ""
+
+#: includes/woo_order_meta.php:65 includes/woo_order_meta.php:66
+msgid "Preview "
+msgstr ""
+
+#: includes/woo_printer.php:720 includes/woo_settings.php:288
+#: includes/woo_settings.php:382
+msgid "N/A"
+msgstr ""
+
+#: includes/woo_printer.php:749
+msgid "Shipping method"
+msgstr ""
+
+#: includes/woo_printer_logs.php:71
+msgid "Print Logs"
+msgstr ""
+
+#: includes/woo_printer_logs.php:80 includes/woo_printer_logs.php:86
+msgid "Logs"
+msgstr ""
+
+#: includes/woo_printer_logs.php:82
+msgid "Clear Log"
+msgstr ""
+
+#: includes/woo_printer_logs.php:89
+msgid "Print logs"
+msgstr ""
+
+#: includes/woo_printer_logs.php:123
+msgid "ID"
+msgstr ""
+
+#: includes/woo_printer_logs.php:124
+msgid "Type"
+msgstr ""
+
+#: includes/woo_printer_logs.php:125
+msgid "Title"
+msgstr ""
+
+#: includes/woo_printer_logs.php:126
+msgid "Message"
+msgstr ""
+
+#: includes/woo_settings.php:24
+msgctxt "Settings tab label"
+msgid "Cloud Print Options"
+msgstr ""
+
+#: includes/woo_settings.php:82
+msgid "General options"
+msgstr ""
+
+#: includes/woo_settings.php:83
+msgid "Invoice options"
+msgstr ""
+
+#: includes/woo_settings.php:84 includes/woo_settings.php:364
+msgid "Packing Slip options"
+msgstr ""
+
+#: includes/woo_settings.php:85 includes/woo_settings.php:464
+msgid "System Status"
+msgstr ""
+
+#: includes/woo_settings.php:154
+msgid "Order #"
+msgstr ""
+
+#: includes/woo_settings.php:154
+msgid " by "
+msgstr ""
+
+#: includes/woo_settings.php:184
+msgid "Shop Details"
+msgstr ""
+
+#: includes/woo_settings.php:190 includes/woo_settings.php:505
+msgid "Paper Size"
+msgstr ""
+
+#: includes/woo_settings.php:194
+msgid "Select Printer paper size"
+msgstr ""
+
+#: includes/woo_settings.php:199 includes/woo_settings.php:506
+msgid "Paper Orientation"
+msgstr ""
+
+#: includes/woo_settings.php:203
+msgid "Select Printer paper orientation"
+msgstr ""
+
+#: includes/woo_settings.php:208
+msgid "Only Print After Payment"
+msgstr ""
+
+#: includes/woo_settings.php:213
+msgid ""
+"Select Payment gateways (these payment gateway orders will print after "
+"payment complete. remaining orders will print when order placed) leave blank "
+"if you need to print every order when order placed."
+msgstr ""
+
+#: includes/woo_settings.php:218
+msgid "Sample Order"
+msgstr ""
+
+#: includes/woo_settings.php:222
+msgid "Select Order for samples (sample invoices and sample packing slips)"
+msgstr ""
+
+#: includes/woo_settings.php:227 includes/woo_settings.php:229
+msgid "Header Logo"
+msgstr ""
+
+#: includes/woo_settings.php:233 includes/woo_settings.php:235
+msgid "Shop Name"
+msgstr ""
+
+#: includes/woo_settings.php:240 includes/woo_settings.php:242
+msgid "Shop Address"
+msgstr ""
+
+#: includes/woo_settings.php:247
+msgid "Footer"
+msgstr ""
+
+#: includes/woo_settings.php:249
+msgid "terms & conditions, policies, etc."
+msgstr ""
+
+#: includes/woo_settings.php:254 includes/woo_settings.php:276
+#: includes/woo_settings.php:370 includes/woo_settings.php:461
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/woo_settings.php:257
+msgid "Enable Printing Logs"
+msgstr ""
+
+#: includes/woo_settings.php:270
+msgid "Invoice Options"
+msgstr ""
+
+#: includes/woo_settings.php:272
+msgid "Invoice Preview"
+msgstr ""
+
+#: includes/woo_settings.php:272
+msgid "Print a Sample"
+msgstr ""
+
+#: includes/woo_settings.php:279
+msgid "Enable Invoice Printing"
+msgstr ""
+
+#: includes/woo_settings.php:284 includes/woo_settings.php:378
+msgid "Select Printers "
+msgstr ""
+
+#: includes/woo_settings.php:285
+msgid "Selectt printers to print invoice"
+msgstr ""
+
+#: includes/woo_settings.php:299 includes/woo_settings.php:393
+msgid "Number of copies to print"
+msgstr ""
+
+#: includes/woo_settings.php:303
+msgid "Select number of invoice copies to print through google cloud print"
+msgstr ""
+
+#: includes/woo_settings.php:309 includes/woo_settings.php:403
+msgid "Billing and Shipping Address Layout"
+msgstr ""
+
+#: includes/woo_settings.php:312 includes/woo_settings.php:406
+msgid "Billing and shipping address order in Invoice"
+msgstr ""
+
+#: includes/woo_settings.php:313 includes/woo_settings.php:407
+msgid "Billing Address + Shipping Address"
+msgstr ""
+
+#: includes/woo_settings.php:314 includes/woo_settings.php:408
+msgid "Shipping Address + Billing Address"
+msgstr ""
+
+#: includes/woo_settings.php:318
+msgid "Display shipping address"
+msgstr ""
+
+#: includes/woo_settings.php:321
+msgid ""
+"Display shipping address (in addition to the default billing address) if "
+"different from billing address"
+msgstr ""
+
+#: includes/woo_settings.php:325 includes/woo_settings.php:328
+msgid "Display Shipping Method"
+msgstr ""
+
+#: includes/woo_settings.php:332 includes/woo_settings.php:335
+#: includes/woo_settings.php:427 includes/woo_settings.php:430
+msgid "Display email address"
+msgstr ""
+
+#: includes/woo_settings.php:339 includes/woo_settings.php:342
+#: includes/woo_settings.php:434 includes/woo_settings.php:437
+msgid "Display phone number"
+msgstr ""
+
+#: includes/woo_settings.php:347 includes/woo_settings.php:350
+#: includes/woo_settings.php:441 includes/woo_settings.php:444
+msgid "Display Barcode"
+msgstr ""
+
+#: includes/woo_settings.php:366
+msgid "Packing Slip Preview"
+msgstr ""
+
+#: includes/woo_settings.php:366
+msgid "Print a Sample "
+msgstr ""
+
+#: includes/woo_settings.php:373
+msgid "Enable Packing Slip Printing"
+msgstr ""
+
+#: includes/woo_settings.php:379
+msgid "Selectt printers to print packing-slips"
+msgstr ""
+
+#: includes/woo_settings.php:397
+msgid ""
+"Select number of packing slip copies to print through google cloud print"
+msgstr ""
+
+#: includes/woo_settings.php:413
+msgid "Display Billing address"
+msgstr ""
+
+#: includes/woo_settings.php:416
+msgid ""
+"Display billing address (in addition to the default shipping address) if "
+"different from shipping address"
+msgstr ""
+
+#: includes/woo_settings.php:420 includes/woo_settings.php:423
+msgid "Display Payment Method"
+msgstr ""
+
+#: includes/woo_settings.php:456
+msgid "Syatem Status"
+msgstr ""
+
+#: includes/woo_settings.php:507
+msgid "Number of copies"
+msgstr ""
+
+#: includes/woo_settings.php:737
+msgid "Are you sure you want to delete this log?"
+msgstr ""
+
+#: templates/invoice.php:64 templates/invoice.php:84
+msgid "Ship To:"
+msgstr ""
+
+#: templates/invoice.php:71 templates/packing-slip.php:63
+#: templates/packing-slip.php:82
+msgid "Billing Address:"
+msgstr ""
+
+#: templates/invoice.php:102 templates/packing-slip.php:97
+msgid "Order Number:"
+msgstr ""
+
+#: templates/invoice.php:106 templates/packing-slip.php:101
+msgid "Order Date:"
+msgstr ""
+
+#: templates/invoice.php:110 templates/packing-slip.php:110
+msgid "Payment Method:"
+msgstr ""
+
+#: templates/invoice.php:116 templates/packing-slip.php:105
+msgid "Shipping Method:"
+msgstr ""
+
+#: templates/invoice.php:139 templates/packing-slip.php:136
+msgid "Product"
+msgstr ""
+
+#: templates/invoice.php:140 templates/packing-slip.php:137
+msgid "Quantity"
+msgstr ""
+
+#: templates/invoice.php:141
+msgid "Price"
+msgstr ""
+
+#: templates/invoice.php:148 templates/packing-slip.php:144
+msgid "Description"
+msgstr ""
+
+#: templates/invoice.php:153 templates/packing-slip.php:149
+msgid "SKU"
+msgstr ""
+
+#: templates/invoice.php:154 templates/packing-slip.php:150
+msgid "SKU:"
+msgstr ""
+
+#: templates/invoice.php:155 templates/packing-slip.php:151
+msgid "Weight:"
+msgstr ""
+
+#: templates/invoice.php:171 templates/packing-slip.php:166
+msgid "Customer Notes"
+msgstr ""
+
+#: templates/packing-slip.php:70
+msgid "Shipping Address:"
+msgstr ""
+
+#: xc-woo-google-cloud-print.php:144
+msgid "Sample print has been sent to your printer"
+msgstr ""
+
+#: xc-woo-google-cloud-print.php:255 xc-woo-google-cloud-print.php:262
+#, php-format
+msgid "<li>Please select printer for <a href='%s'>Invoice printing</a></li>"
+msgstr ""
+
+#: xc-woo-google-cloud-print.php:269 xc-woo-google-cloud-print.php:276
+#, php-format
+msgid ""
+"<li>Please select printer for <a href='%s'>Packing Slip printing</a></li>"
+msgstr ""
+
+#: xc-woo-google-cloud-print.php:499
+msgid "Invoice sent to google cloud print automatically"
+msgstr ""
+
+#: xc-woo-google-cloud-print.php:541
+msgid "Packing slip sent to google cloud print automatically"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce Google Cloud Print"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wp.xperts.club/googlecloudprint"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin can send new orders in your store to be automatically and "
+"instantly to your google cloud printer. Save time and money, and fulfill "
+"orders faster!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Xperts Club"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wp.xperts.club/"
+msgstr ""

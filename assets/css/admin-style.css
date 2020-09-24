@@ -1,0 +1,13 @@
+/* CSS Document */
+#xc_woo-printer-box.loading{
+cursor:wait;
+opacity:0.7;	
+}
+#xc-print-logs-table th{
+width:inherit;	
+}
+#xc-print-logs-table_wrapper #xc-print-logs-table_length select{
+	width:auto;
+	vertical-align:central;
+}
+

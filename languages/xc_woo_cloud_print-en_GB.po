@@ -1,0 +1,465 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Woocommerce Google Cloud Print\n"
+"POT-Creation-Date: 2018-01-20 12:34+0530\n"
+"PO-Revision-Date: 2018-01-20 12:35+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xc-woo-google-cloud-print.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_GB\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/options.php:63
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/options.php:77
+msgid "Instructions"
+msgstr ""
+
+#: includes/options.php:81
+msgid ""
+"For longer help, including screenshots, follow this link. The description "
+"below is sufficient for more expert users."
+msgstr ""
+
+#: includes/options.php:88
+#, php-format
+msgid ""
+"%s does not allow authorisation of sites hosted on direct IP addresses. You "
+"will need to change your site's address (%s) before you can use %s for "
+"storage."
+msgstr ""
+
+#: includes/options.php:88 includes/options.php:470
+msgid "Google Cloud Print"
+msgstr ""
+
+#: includes/options.php:95
+msgid ""
+"Follow this link to your Google API Console, and there create a Client ID in "
+"the API Access section."
+msgstr ""
+
+#: includes/options.php:99
+msgid ""
+"Select 'Web Application' as the application type. Then enter the client ID "
+"and secret below and save your settings."
+msgstr ""
+
+#: includes/options.php:104
+msgid ""
+"You must add the following as the authorised redirect URI (under \"More "
+"Options\") when asked"
+msgstr ""
+
+#: includes/options.php:112
+msgid ""
+"N.B. If you install this plugin on several WordPress sites, then you might "
+"have problems in re-using your project (depending on whether Google have "
+"fixed issues at their end yet); if so, then  create a new project from your "
+"Google API console for each site."
+msgstr ""
+
+#: includes/options.php:117
+msgid "After completing authentication, a list of printers will appear."
+msgstr ""
+
+#: includes/options.php:117
+msgid "Choose one, and then save the settings for the second time."
+msgstr ""
+
+#: includes/options.php:136
+msgid "refreshing..."
+msgstr ""
+
+#: includes/options.php:137 includes/options.php:326
+msgid "refresh"
+msgstr ""
+
+#: includes/options.php:207
+msgid "Google Client ID"
+msgstr ""
+
+#: includes/options.php:211
+msgid "Google Client Secret"
+msgstr ""
+
+#: includes/options.php:215
+msgid "Printer"
+msgstr ""
+
+#: includes/options.php:244
+msgid "Google Cloud Print links:"
+msgstr ""
+
+#: includes/options.php:245
+msgid "Learn about Google Cloud Print"
+msgstr ""
+
+#: includes/options.php:247
+msgid "Your printers"
+msgstr ""
+
+#: includes/options.php:249
+msgid "Your print jobs"
+msgstr ""
+
+#: includes/options.php:261
+#, php-format
+msgid ""
+"You appear to be authenticated with Google Cloud Print, but if you are "
+"seeing authorisation errors, then you can click here to authenticate your %s "
+"account again."
+msgstr ""
+
+#: includes/options.php:290
+msgid "See the instructions above to learn how to get this"
+msgstr ""
+
+#: includes/options.php:311
+msgid "Account either not connected, or no printers available)"
+msgstr ""
+
+#: includes/options.php:331
+msgid "Google Cloud Print notice:"
+msgstr ""
+
+#: includes/options.php:332
+#, php-format
+msgid ""
+"Click here to authenticate your %s account (you will not be able to print "
+"via %s without it)."
+msgstr ""
+
+#: includes/options.php:448
+msgid ""
+"No refresh token was received from Google. This often means that you entered "
+"your client secret wrongly, or that you have not yet re-authenticated "
+"(below) since correcting it. Re-check it, then follow the link to "
+"authenticate again. Finally, if that does not work, then use expert mode to "
+"wipe all your settings, create a new Google client ID/secret, and start "
+"again."
+msgstr ""
+
+#: includes/options.php:450
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/options.php:456
+msgid "Authorization failed"
+msgstr ""
+
+#: includes/options.php:470 xc-woo-google-cloud-print.php:127
+msgid "Success"
+msgstr ""
+
+#: includes/options.php:470
+#, php-format
+msgid "you have authenticated your %s account."
+msgstr ""
+
+#: includes/options.php:622
+msgid "Do not fit to page"
+msgstr ""
+
+#: includes/options.php:625
+msgid "Fit to page"
+msgstr ""
+
+#: includes/options.php:636
+msgid "Portrait"
+msgstr ""
+
+#: includes/options.php:639
+msgid "Landscape"
+msgstr ""
+
+#: includes/options.php:642 includes/options.php:659
+msgid "Automatic"
+msgstr ""
+
+#: includes/options.php:653
+msgid "Monochrome"
+msgstr ""
+
+#: includes/options.php:656
+msgid "Color"
+msgstr ""
+
+#: includes/woo_printer.php:608
+msgid "N/A"
+msgstr ""
+
+#: includes/woo_printer.php:637
+msgid "Shipping method"
+msgstr ""
+
+#: includes/woo_settings.php:24
+msgctxt "Settings tab label"
+msgid "Cloud Print Options"
+msgstr ""
+
+#: includes/woo_settings.php:78
+msgid "General options"
+msgstr ""
+
+#: includes/woo_settings.php:79
+msgid "Invoice options"
+msgstr ""
+
+#: includes/woo_settings.php:80 includes/woo_settings.php:293
+msgid "Packing Slip options"
+msgstr ""
+
+#: includes/woo_settings.php:144
+msgid "Order #"
+msgstr ""
+
+#: includes/woo_settings.php:144
+msgid " by "
+msgstr ""
+
+#: includes/woo_settings.php:164
+msgid "Shop Details"
+msgstr ""
+
+#: includes/woo_settings.php:170
+msgid "Paper Size"
+msgstr ""
+
+#: includes/woo_settings.php:174
+msgid "Select Printer paper size"
+msgstr ""
+
+#: includes/woo_settings.php:179
+msgid "Paper Orientation"
+msgstr ""
+
+#: includes/woo_settings.php:183
+msgid "Select Printer paper orientation"
+msgstr ""
+
+#: includes/woo_settings.php:188
+msgid "Sample Order"
+msgstr ""
+
+#: includes/woo_settings.php:192
+msgid "Select Order for samples (sample invoices and sample packing slips)"
+msgstr ""
+
+#: includes/woo_settings.php:197
+msgid "Header Logo"
+msgstr ""
+
+#: includes/woo_settings.php:203
+msgid "Shop Name"
+msgstr ""
+
+#: includes/woo_settings.php:210
+msgid "Shop Address"
+msgstr ""
+
+#: includes/woo_settings.php:217
+msgid "Footer"
+msgstr ""
+
+#: includes/woo_settings.php:219
+msgid "terms & conditions, policies, etc."
+msgstr ""
+
+#: includes/woo_settings.php:233
+msgid "Invoice Options"
+msgstr ""
+
+#: includes/woo_settings.php:235
+msgid "Invoice Preview"
+msgstr ""
+
+#: includes/woo_settings.php:235
+msgid "Print a Sample"
+msgstr ""
+
+#: includes/woo_settings.php:239 includes/woo_settings.php:299
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/woo_settings.php:242
+msgid "Enable Invoice Printing"
+msgstr ""
+
+#: includes/woo_settings.php:246 includes/woo_settings.php:307
+msgid "Billing and Shipping Address Layout"
+msgstr ""
+
+#: includes/woo_settings.php:249 includes/woo_settings.php:310
+msgid "Billing and shipping address order in Invoice"
+msgstr ""
+
+#: includes/woo_settings.php:250 includes/woo_settings.php:311
+msgid "Billing Address + Shipping Address"
+msgstr ""
+
+#: includes/woo_settings.php:251 includes/woo_settings.php:312
+msgid "Shipping Address + Billing Address"
+msgstr ""
+
+#: includes/woo_settings.php:255
+msgid "Display shipping address"
+msgstr ""
+
+#: includes/woo_settings.php:258
+msgid ""
+"Display shipping address (in addition to the default billing address) if "
+"different from billing address"
+msgstr ""
+
+#: includes/woo_settings.php:262 includes/woo_settings.php:265
+msgid "Display Shipping Method"
+msgstr ""
+
+#: includes/woo_settings.php:269 includes/woo_settings.php:331
+msgid "Display email address"
+msgstr ""
+
+#: includes/woo_settings.php:276 includes/woo_settings.php:338
+msgid "Display phone number"
+msgstr ""
+
+#: includes/woo_settings.php:295
+msgid "Packing Slip Preview"
+msgstr ""
+
+#: includes/woo_settings.php:295
+msgid "Print a Sample "
+msgstr ""
+
+#: includes/woo_settings.php:302
+msgid "Enable Packing Slip Printing"
+msgstr ""
+
+#: includes/woo_settings.php:317
+msgid "Display Billing address"
+msgstr ""
+
+#: includes/woo_settings.php:320
+msgid ""
+"Display billing address (in addition to the default shipping address) if "
+"different from shipping address"
+msgstr ""
+
+#: includes/woo_settings.php:324 includes/woo_settings.php:327
+msgid "Display Payment Method"
+msgstr ""
+
+#: templates/invoice.php:11 templates/invoice.php:23
+msgid "Invoice"
+msgstr ""
+
+#: templates/invoice.php:34 templates/invoice.php:54
+msgid "Ship To:"
+msgstr ""
+
+#: templates/invoice.php:41 templates/packing-slip.php:33
+#: templates/packing-slip.php:52
+msgid "Billing Address:"
+msgstr ""
+
+#: templates/invoice.php:72 templates/packing-slip.php:67
+msgid "Order Number:"
+msgstr ""
+
+#: templates/invoice.php:76 templates/packing-slip.php:71
+msgid "Order Date:"
+msgstr ""
+
+#: templates/invoice.php:80 templates/packing-slip.php:80
+msgid "Payment Method:"
+msgstr ""
+
+#: templates/invoice.php:86 templates/packing-slip.php:75
+msgid "Shipping Method:"
+msgstr ""
+
+#: templates/invoice.php:103 templates/packing-slip.php:98
+msgid "Product"
+msgstr ""
+
+#: templates/invoice.php:104 templates/packing-slip.php:99
+msgid "Quantity"
+msgstr ""
+
+#: templates/invoice.php:105
+msgid "Price"
+msgstr ""
+
+#: templates/invoice.php:112 templates/packing-slip.php:106
+msgid "Description"
+msgstr ""
+
+#: templates/invoice.php:117 templates/packing-slip.php:111
+msgid "SKU"
+msgstr ""
+
+#: templates/invoice.php:118 templates/packing-slip.php:112
+msgid "SKU:"
+msgstr ""
+
+#: templates/invoice.php:119 templates/packing-slip.php:113
+msgid "Weight:"
+msgstr ""
+
+#: templates/invoice.php:134 templates/packing-slip.php:128
+msgid "Customer Notes"
+msgstr ""
+
+#: templates/packing-slip.php:10 templates/packing-slip.php:22
+msgid "Packing Slip"
+msgstr ""
+
+#: templates/packing-slip.php:40
+msgid "Shipping Address:"
+msgstr ""
+
+#: xc-woo-google-cloud-print.php:127
+msgid "Sample print has been sent to your printer"
+msgstr ""
+
+#: xc-woo-google-cloud-print.php:214
+msgid "Print"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce Google Cloud Print"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wp.xperts.club/googlecloudprint"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin can send new orders in your store to be automatically and "
+"instantly to your google cloud printer. Save time and money, and fulfill "
+"orders faster!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Xperts Club"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wp.xperts.club/"
+msgstr ""

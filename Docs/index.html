@@ -1,0 +1,204 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Woocommerce Google Cloud Print - Print Store Orders automatically and instantly</title>
+	
+	<meta name="description" content="This plugin can send new orders in your store to be automatically and instantly to your google cloud printer. Save time and money, and fulfill orders faster!">
+	<meta name="author" content="XpertsClub">
+	<meta name="copyright" content="XpertsClub">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2017-12-14T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_16.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-woocommerce-google-cloud-print">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#google_cloud_print_settings" title="Google Cloud Print Settings">Google Cloud Print Settings</a></li>
+			<li><a href="#woocommerce_cloud_print_settings" title="Woocommerce Cloud Print Settings">Woocommerce Cloud Print Settings</a></li>
+            <li><a href="#print_logs" title="Print Logs">Print Logs</a></li>
+			<li><a href="#thank_you" title="Thank You">Thank You</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright <a href="https://xperts.club">XpertsClub</a> 2017-2018<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>WooCommerce Google Cloud Print | Woocommerce Automatic Order Printing</h1>
+	<h2>Print Store Orders automatically and instantly</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 12/14/2017</li>
+	<li>latest update: 10/11/2018</li>
+	<li>by: XpertsClub</li>
+	<li><a href="http://wp.xperts.club/googlecloudprint">wp.xperts.club/googlecloudprint</a></li>
+	<li>email: <a href="mailto:&#97;&#100;&#109;&#105;&#110;&#64;&#120;&#112;&#101;&#114;&#116;&#115;&#46;&#99;&#108;&#117;b">&#97;&#100;&#109;&#105;&#110;&#64;&#120;&#112;&#101;&#114;&#116;&#115;&#46;&#99;&#108;&#117;b</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>
+	<img alt="" src="assets/images/image_10.png" style="width: 1340px; height: 643px;"></p>
+<ol style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li>
+		Save a copy of the plugin on your computer from codecanyon</li>
+	<li>
+		Login to your Wordpress dashboard using an admin account</li>
+	<li>
+		Navigate to&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Plugins &gt; Add new &gt; Upload plugin</span></li>
+	<li>
+		Click on&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Choose File</span>&nbsp;and browse the zipped file you&#39;ve downloaded from codecanyon in first step (<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">xc-woo-google-cloud-print.zip</span>) and press Install now button</li>
+	<li>
+		Once the file is uploaded, don&#39;t forget to&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">activate the plugin</span></li>
+</ol>
+</section>
+<section id="google_cloud_print_settings">
+	<div class="page-header"><h3>Google Cloud Print Settings</h3><hr class="notop"></div>
+<p>	Below you can find the steps you need to follow to setup google cloud print:</p>
+<p>	<img alt="" src="assets/images/image_11.png" style="width: 914px; height: 643px;"></p>
+<p>&nbsp;	</p>
+<p>	<img alt="" src="assets/images/image_12.png" style="width: 1046px; height: 652px;"></p>
+<p>	Below you can find the steps you need to follow to get <strong>Google Client ID , Google Client Secret</strong></p>
+<h3>
+	Visit the Google API console, and create a new project</h3>
+<p>	To allow access to your Google Cloud Print printers,&nbsp;<a href="https://console.developers.google.com/">click on the link to your API console</a>&nbsp;to take you to Google; then click on the option to create a new project in the &ldquo;Project&rdquo; menu: <em>Choose &ldquo;Select project&rdquo; from the drop-down &ldquo;Project&rdquo; menu&hellip;</em></p>
+<p>	<img alt="" class="aligncenter wp-image-49 size-full" height="148" src="assets/images/image_1.png" width="551"></p>
+<p>&nbsp;	</p>
+<p>	<em>Click on &ldquo;Create project&rdquo; &hellip;</em></p>
+<p>	<img alt="" class="aligncenter size-full wp-image-50" height="211" src="assets/images/image_2.png" width="739"></p>
+<p>	<em>Enter &ldquo;Project Name&rdquo; in the Project Name Field&hellip;</em></p>
+<p>	<img alt="" class="aligncenter size-full wp-image-51" height="399" src="assets/images/image_3.png" width="547"></p>
+<h3>
+	Go to the Credentials to manage API credentials</h3>
+<p>	<em>Click on &ldquo;Credentials&rdquo; then &quot;OAuth consent screen&quot; then see something like the screenshot below.&hellip;</em></p>
+<p>	<img alt="" class="aligncenter size-full wp-image-53" height="616" src="assets/images/image_5.png" width="940"></p>
+<p>	<em>You will then probably be told that you need to give your application a name. When you have done so, it will bring you back to this screen.</em></p>
+<p>	<img alt="" class="aligncenter size-full wp-image-52" height="555" src="assets/images/image_4.png" width="1105"></p>
+<p>&nbsp;	</p>
+<p>	<em>Click on &quot;Credentials&quot; then &quot;Create credentials&quot; then select &quot;OAuth client ID&quot;..</em> <em>Choose &ldquo;Web Application&rdquo; as the application type</em></p>
+<p>	<img alt="" class="aligncenter size-full wp-image-54" height="607" src="assets/images/image_6.png" width="1005"></p>
+<p>	<em>Next, enter some details:</em> <em>For the name, enter any label you please &ndash; it does not matter.</em> <em> When asked, paste in (as the &ldquo;Authorized redirect URI&rdquo;) the URL that was shown to you on your Google Cloud Print settings page back in your WordPress admin console: (do paste it from there &ndash; don&rsquo;t copy any screenshot below).</em> <em> For the &ldquo;Authorized JavaScript origins&rdquo;, enter the same thing but remove everything after the initial host name in the URL. i.e. something like http://www.example.com</em> <em>Then press the &ldquo;Create&rdquo; button.</em> You will then be shown your client ID and secret.</p>
+<p>	<img alt="" class="aligncenter size-full wp-image-55" height="232" src="assets/images/image_7.png" width="520"></p>
+<h3>
+	Go back to your WordPress dashboard, and enter the details</h3>
+<p>	You should now have a client ID created. Paste the details back into the Google Cloud Print settings page in your WordPress admin console. (Don&rsquo;t copy our ones from the screenshot above &ndash; they are just an example, and will not work for you!). Save the settings. Then (i.e. after saving the settings), follow the link that WordPress will show you, to complete authorization.</p>
+<p>	<img alt="" class="aligncenter size-full wp-image-59" height="140" src="assets/images/image_8.png" width="954"></p>
+<p>	Google will then show you a screen to confirm the authorization. The screenshot may not be identical to the one below:</p>
+<p>	<img alt="" class="aligncenter size-full wp-image-60" height="580" src="assets/images/image_9.png" width="506"></p>
+<p>	After doing this, you&rsquo;re done.</p>
+</section>
+<section id="woocommerce_cloud_print_settings">
+	<div class="page-header"><h3>Woocommerce Cloud Print Settings</h3><hr class="notop"></div>
+<p>	<strong>Shop Details&nbsp;</strong></p>
+<p>	Navigate to Woocommerce &gt; Settings &amp; click on &quot;Cloud Print Options&quot; tab</p>
+<p>	<img alt="" src="assets/images/image_13.png" /></p>
+<p>	Here you can add all the settings what you needed.</p>
+<p>	Logo, Shop Name, Shop Address Will display on both Invoice and Packing Slips Header</p>
+<p>	Footer will display on both Invoice and Packing Slips Footer</p>
+<p>	<strong>Invoice Options</strong></p>
+<p>	Enable or Disable Invoice print option</p>
+<p>	<strong><img alt="" src="assets/images/image_14.png"/></strong></p>
+<p>	<strong>Packing Slip Options</strong></p>
+<p>	Enable or Disable Packing Slip Printing</p>
+<p>	<img alt="" src="assets/images/image_15.png"  /></p>
+
+</section>
+
+<section id="print_logs">
+	<div class="page-header"><h3>Print Logs</h3><hr class="notop"></div>
+<p>
+	Navigate to Woocommerce &gt; Settings &amp; click on "Cloud Print Options" tab</p>
+<p>
+	<img alt="" src="assets/images/image_16-1.png" style="width: 952px; height: 573px;"></p>
+<p>
+	Select <strong>Enable printing Logs option.</strong></p>
+<p>
+	Not system will save all log information. You can check all log information in "Print log "section</p>
+<p>
+	<img alt="" src="assets/images/image_17.png"></p>
+    
+    <h3>Credits and Assets</h3>
+<ul>
+<li><a target="_blank" href="https://github.com/dompdf/dompdf">Dompdf</a></li>
+<li><a target="_blank" href="https://wordpress.org/plugins/google-cloud-print-library">Google Cloud Print Library</a> </li>
+</ul>
+    
+</section>
+
+
+<section id="thank_you">
+	<div class="page-header"><h3>Thank You</h3><hr class="notop"></div>
+<p>	Thank you for purchasing and activating &laquo; <strong>Woocommerce Google Cloud Print</strong> &raquo; Plugin!</p>
+<p>	If you like our plugin, please <a href="https://codecanyon.net/downloads">rate it with 5 stars</a>, it will help us to make regular updates and support this plugin as long as it will be in demand.</p>
+<p>	If you are not satisfied with our product, please do not rush to put a bad rating, contact us about your wishes. We can not guarantee that all of them will be implemented, but the most interesting and popular ideas will be added necessarily!</p>
+</section>
+
+	</div>
+</body>
+</html>
